@@ -1,0 +1,57 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.content {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.accordion {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.accordion-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.accordion-btn:hover {
+  background-color: #121111;
+}
+
+.accordion-content {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border: 2px solid #333;
+  display: none;
+}
+
+.accordion-content.show {
+  display: block;
+}
+
+.accordion-content p {
+  margin-bottom: 10px;
+}
